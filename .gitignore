@@ -1,0 +1,64 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs
+.vscode
+**/.idea
+/packages
+
+# Backend
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+# ===============================================================
+
+# User-specific files
+# ===============================================================
+**/**/*.dbmdl
+**/**/*.jfm
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.log
+*.pubxml
+
+**/node_modules
+**/[Bb]in/
+**/[Oo]bj/
+**/*.dbmdl
+**/*.jfm
+**/*DotSettings.user
+
+# Build results
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/build/
+**/bld/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+*.vspscc
+*.vssscc
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+*.ldf
+*.mdf
+/TestResults
+/Backup
+
+**/*.[Ll]ocal.json
+**/.npmrc
+**/*.log
