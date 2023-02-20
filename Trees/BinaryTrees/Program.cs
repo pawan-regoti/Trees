@@ -27,6 +27,7 @@ Console.WriteLine("PostOrder Traversal:");
 binaryTree.PostOrder(binaryTree.Root);
 Console.WriteLine();
 
+Console.WriteLine("Removing 78 and 82:");
 binaryTree.Delete(78);
 binaryTree.Delete(82);
 
